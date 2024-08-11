@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={"https://www.creativefabrica.com/wp-content/uploads/2021/09/25/NK-logo-design-vector-Graphics-17830128-1-580x386.jpg"} className="img-fluid logo" alt="NK" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -23,8 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
+              imgPath={"https://www.searchenginejournal.com/wp-content/uploads/2020/03/20-free-things-you-need-to-do-after-launching-your-ecommerce-website-5e664bcb60da5.png"}
               title="ShopSmartly"
               description="Developed an e-commerce website similar to Amazon and Flipkart using the MERN stack (MongoDB, Express.js, React, Node.js). 
               Roles like Admin, User, Vendor, and Courier, each with specific functionalities like product management, order placement, and 
@@ -35,8 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
+              imgPath={"https://qph.cf2.quoracdn.net/main-qimg-0dbec8583ecac3c448e92beb7da219f7"}
               title="Flim Fetch"
               description="Film Fetch is a dynamic web application built using the MERN stack, allowing users to effortlessly search for movies and add them 
               to personalized lists. Users can create, explore, and manage their custom movie collections with an intuitive interface. This project 
@@ -48,8 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
+              imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8OJ8nAfuijH0NbHcvi0n95v-g-NpCGRPdA&s"}
               title="Agri market"
               description="Innovative web application empowering farmers and retailers to connect directly, eliminating the need for mediators. Farmers can 
               easily list their products, while retailers browse and purchase what they need, all while maintaining comprehensive transaction 
@@ -60,8 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
+              imgPath={"https://www.shutterstock.com/image-photo/bus-traveling-on-asphalt-road-600nw-1345741577.jpg"}
               title="Smart Bus Ticket Reservation System"
               description="A Java-based web application, utilizing Java 8, Spring Boot, REST API, JPA, and MySQL Workbench, streamlines bus ticket booking. 
               Users can search and select pick-up and drop-off locations, view bus details including timing and available seats, and make 
@@ -72,14 +67,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
+              imgPath={"https://d31bgfoj87qaaj.cloudfront.net/blog/wp-content/uploads/2017/08/buying_second_hand1.jpg"}
               title="Second Hand Items"
               description="We developed an online marketplace using Spring Boot, MySQL, JPA, and Hibernate, allowing users to buy 
               and sell products. The platform features contact options via phone number or in-app messaging, facilitating direct 
               communication between buyers and sellers."
               ghLink="https://github.com/navin1812ku/second-hand-item"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
         </Row>
