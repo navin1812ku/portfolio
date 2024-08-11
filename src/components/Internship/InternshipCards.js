@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BsGithub } from "react-icons/bs";
 
 function InternshipCards(props) {
     return (
