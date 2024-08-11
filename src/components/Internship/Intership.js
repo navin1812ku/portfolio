@@ -21,6 +21,8 @@ function Internship() {
                             title="MERN Stack"
                             description="Participated in an internship program which was conducted by Channel B.Tech. With this internship program an extensive 
                             experience gained in developing web application using the MERN Stack. "
+                            technologies="MongoDB, ReactJS, ExpressJS, NodeJS"
+                            tools="VS Code, Postman, Github"
                             cLink="https://drive.google.com/file/d/1rX7KMOJN93CB5dWVfRxwZHRuvWpS128L/view"
                         />
                     </Col>
@@ -31,6 +33,8 @@ function Internship() {
                             title="Java Full Stack"
                             description="Participated in an internship program which was conducted by Edu Station. Completed a comprehensive internship specializing in 
                             Full Stack Development, acquiring advanced skills in React JS, Spring Boot Framework and MySQL."
+                            technologies="Spring boot, MySQL Workbench, ReactJS"
+                            tools="Intellij IDEA, Postman, Github"
                             cLink="https://drive.google.com/file/d/17oi02z2E1oYDs2g-J6TL4_6gfhFmf94B/view"
                         />
                     </Col>
